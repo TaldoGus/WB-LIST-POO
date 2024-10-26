@@ -1,8 +1,9 @@
 .vscode/
-/atvi-wb-typescript/node_modules/
-/atvi-wb-typescript/node_modules/**
-/atvi-wb-typescript/out/
-/atvi-wb-typescript/out/**
+/WB-LIST-POO/node_modules/
+/atv1-wb-typescript/node_modules/
+/atv1-wb-typescript/node_modules/**
+/atv1-wb-typescript/out/
+/atv1-wb-typescript/out/**
 /atvii-wb-typescript/node_modules/
 /atvii-wb-typescript/node_modules/**
 /atviv-wb-typescript/client/node_modules/
