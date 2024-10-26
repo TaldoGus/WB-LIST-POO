@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "outDir": "./out",         // Diretório de saída
+    "rootDir": "./src",        // Diretório de origem (onde estão os arquivos .ts)
+    "target": "es6",           // Versão do JavaScript que será gerada
+    "module": "commonjs",      // Usar CommonJS, padrão para Node.js
+    "esModuleInterop": true    // Habilitar interoperabilidade de módulos ES
+  },
+  "include": ["src/**/*.ts"],   // Inclui todos os arquivos .ts da pasta src
+  "exclude": ["node_modules"]   // Exclui node_modules
+}
