@@ -1,31 +1,31 @@
 a {
-    color: #ff4081;
+    color: #7114eb;
 }
 
 a:hover {
-    color: #ff80ab;
+    color: #760c9c;
 }
 
 #homeContainer {
-    background-color: #fce4ec;
+    background-color: #7700ff;
     width: 90%;
     margin: 200px auto;
     padding: 20px;
     border-radius: 20px;
     text-align: center;
     font-size: 40px;
-    color: #ff4081;
+    color: #ffffff;
 }
 
 #backgroundClientContainer {
-    background-color: #fce4ec;
+    background-color: #bab7e3ab;
     height: 100vh;
     padding: 10px 0;
 }
 
 #titleContainer {
     width: 30%;
-    background-color: #ff4081;
+    background-color: #a280ff;
     border-radius: 0 20px 20px 0;
 }
 
@@ -49,7 +49,7 @@ a:hover {
 }
 
 #collapsibleHeader:hover {
-    background-color: #ff80ab;
+    background-color: #a280ff;
     color: #FFF;
 }
 
@@ -130,7 +130,7 @@ a:hover {
 #cadastrarButtonContainer {
     color: #FFF;
     margin: 0 7px 0 0;
-    background-color: #ff80ab;
+    background-color: #a280ff;
 }
 
 #cancelButton {
@@ -160,7 +160,7 @@ a:hover {
 #confirmButtonVendaContainer {
     color: #FFF;
     width: 100%;
-    background-color: #ff80ab;
+    background-color: #a280ff;
 }
 
 #vendaModalLine {
