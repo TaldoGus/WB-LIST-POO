@@ -19,36 +19,38 @@ export default class TestesValidarLista{
 
     public gerarUsuariosTeste(){
         // Clientes
-        this.clientes.push(new Cliente('Tiago', 'Tiago', new CPF('87233765626', new Date()), new RG('322581965', new Date()), 'M', new Telefone('91', '997350162')))
-        this.clientes.push(new Cliente('Andreia', 'Andreia', new CPF('66158113247', new Date()), new RG('195674492', new Date()), 'F', new Telefone('86', '985190294')))
-        this.clientes.push(new Cliente('Sarah', 'Sarah', new CPF('77513597901', new Date()), new RG('117409170', new Date()), 'F', new Telefone('91', '927583467')))
-        this.clientes.push(new Cliente('Elaine', 'Elaine', new CPF('52179724918', new Date()), new RG('120991524', new Date()), 'F', new Telefone('91', '997350162')))
-        this.clientes.push(new Cliente('Fatima', 'Fatima', new CPF('12154974155', new Date()), new RG('562241691', new Date()), 'F', new Telefone('41', '984758385')))
-        this.clientes.push(new Cliente('Bruno', 'Bruno', new CPF('77753398024', new Date()), new RG('496612062', new Date()), 'M', new Telefone('11', '983957194')))
-        this.clientes.push(new Cliente('Nina', 'Nina', new CPF('33203424010', new Date()), new RG('488688279', new Date()), 'F', new Telefone('11', '985462856')))
-        this.clientes.push(new Cliente('Catarina', 'Catarina', new CPF('23572520061', new Date()), new RG('492910285', new Date()), 'O', new Telefone('84', '984148597')))
-        this.clientes.push(new Cliente('Fernando', 'Fernando', new CPF('81161508040', new Date()), new RG('201233538', new Date()), 'M', new Telefone('95', '998505825')))
-        this.clientes.push(new Cliente('Fernanda', 'Fernanda', new CPF('82191377033', new Date()), new RG('351163311', new Date()), 'O', new Telefone('96', '96989531259')))
-        this.clientes.push(new Cliente('Maria', 'Maria', new CPF('52376507081', new Date()), new RG('274090193', new Date()), 'F', new Telefone('51', '986280540')))
-        this.clientes.push(new Cliente('Beatriz', 'Beatriz', new CPF('11836899009', new Date()), new RG('323565815', new Date()), 'F', new Telefone('69', '982689441')))
-        this.clientes.push(new Cliente('Daiane', 'Daiane', new CPF('33851696077', new Date()), new RG('210919590', new Date()), 'F', new Telefone('98', '981102471')))
-        this.clientes.push(new Cliente('Mario', 'Mario', new CPF('20294030085', new Date()), new RG('239764079', new Date()), 'O', new Telefone('45', '994179996')))
-        this.clientes.push(new Cliente('Marcos', 'Marcos', new CPF('39387663019', new Date()), new RG('410483606', new Date()), 'M', new Telefone('63', '999437784')))
-        this.clientes.push(new Cliente('Rodrigo', 'Rodrigo', new CPF('01671415035', new Date()), new RG('159574870', new Date()), 'M', new Telefone('63', '984565215')))
-        this.clientes.push(new Cliente('Elias', 'Elias', new CPF('28641837060', new Date()), new RG('242908974', new Date()), 'M', new Telefone('67', '984755496')))
-        this.clientes.push(new Cliente('Jose', 'Jose', new CPF('26494158005', new Date()), new RG('297085840', new Date()), 'M', new Telefone('61', '993276454')))
-        this.clientes.push(new Cliente('Joao', 'Joao', new CPF('96200240019', new Date()), new RG('286902886', new Date()), 'M', new Telefone('98', '8989705422')))
-        this.clientes.push(new Cliente('Gabriel', 'Gabriel', new CPF('66847450096', new Date()), new RG('438990493', new Date()), 'M', new Telefone('95', '992656998')))
-        this.clientes.push(new Cliente('Lorenzo', 'Lorenzo', new CPF('10970330073', new Date()), new RG('459248431', new Date()), 'M', new Telefone('84', '987072367')))
-        this.clientes.push(new Cliente('Isaque', 'Isaque', new CPF('77607516050', new Date()), new RG('500704880', new Date()), 'M', new Telefone('95', '989765489')))
-        this.clientes.push(new Cliente('Otavio', 'Otavio', new CPF('17064086093', new Date()), new RG('133697502', new Date()), 'M', new Telefone('92', '993909673')))
-        this.clientes.push(new Cliente('Theo', 'Theo', new CPF('17325679050', new Date()), new RG('183423410', new Date()), 'O', new Telefone('82', '997775330')))
-        this.clientes.push(new Cliente('Thales', 'Thales', new CPF('22586438051', new Date()), new RG('481418350', new Date()), 'M', new Telefone('75', '982780314')))
-        this.clientes.push(new Cliente('Gabriela', 'Gabriela', new CPF('29971566028', new Date()), new RG('327253290', new Date()), 'F', new Telefone('82', '986477097')))
-        this.clientes.push(new Cliente('Victoria', 'Victoria', new CPF('67342794058', new Date()), new RG('398410513', new Date()), 'F', new Telefone('95', '989765489')))
-        this.clientes.push(new Cliente('Renata', 'Renata', new CPF('78111707010', new Date()), new RG('414311668', new Date()), 'F', new Telefone('62', '987557786')))
-        this.clientes.push(new Cliente('Alana', 'Alana', new CPF('91882130057', new Date()), new RG('459779096', new Date()), 'F', new Telefone('27', '986148484')))
-        this.clientes.push(new Cliente('Aline', 'Aline', new CPF('12448918007', new Date()), new RG('213479588', new Date()), 'F', new Telefone('79', '993196411')))
+        this.clientes.push(new Cliente('Carlos', 'Carlos Silva', new CPF('11122233344', new Date()), new RG('123456789', new Date()), 'M', new Telefone('11', '999887766')));
+        this.clientes.push(new Cliente('Ana', 'Ana Paula', new CPF('55566677788', new Date()), new RG('987654321', new Date()), 'F', new Telefone('21', '988776655')));
+        this.clientes.push(new Cliente('Juliana', 'Juliana Mendes', new CPF('88877766655', new Date()), new RG('456789123', new Date()), 'F', new Telefone('31', '977665544')));
+        this.clientes.push(new Cliente('Lucas', 'Lucas Almeida', new CPF('99988877766', new Date()), new RG('789123456', new Date()), 'M', new Telefone('41', '966554433')));
+        this.clientes.push(new Cliente('Fernanda', 'Fernanda Costa', new CPF('33344455566', new Date()), new RG('159753486', new Date()), 'F', new Telefone('61', '955443322')));
+        this.clientes.push(new Cliente('Roberto', 'Roberto Dias', new CPF('44455566677', new Date()), new RG('951753842', new Date()), 'M', new Telefone('19', '944332211')));
+        this.clientes.push(new Cliente('Mariana', 'Mariana Lopes', new CPF('11223344556', new Date()), new RG('789456123', new Date()), 'F', new Telefone('13', '933221100')));
+        this.clientes.push(new Cliente('João', 'João Pedro', new CPF('22334455667', new Date()), new RG('357951852', new Date()), 'M', new Telefone('27', '922110099')));
+        this.clientes.push(new Cliente('Carla', 'Carla Moreira', new CPF('33445566778', new Date()), new RG('753159486', new Date()), 'F', new Telefone('85', '911009988')));
+        this.clientes.push(new Cliente('Paulo', 'Paulo Henrique', new CPF('44556677889', new Date()), new RG('654987321', new Date()), 'M', new Telefone('31', '900889977')));
+        this.clientes.push(new Cliente('Sofia', 'Sofia Pereira', new CPF('55667788990', new Date()), new RG('963852741', new Date()), 'F', new Telefone('51', '899778866')));
+        this.clientes.push(new Cliente('Miguel', 'Miguel Alves', new CPF('66778899011', new Date()), new RG('147258369', new Date()), 'M', new Telefone('55', '888667755')));
+        this.clientes.push(new Cliente('Larissa', 'Larissa Figueiredo', new CPF('77889900122', new Date()), new RG('258369147', new Date()), 'F', new Telefone('92', '877556644')));
+        this.clientes.push(new Cliente('Gustavo', 'Gustavo Rocha', new CPF('88990011223', new Date()), new RG('369147258', new Date()), 'M', new Telefone('71', '866445533')));
+        this.clientes.push(new Cliente('Patricia', 'Patricia Silva', new CPF('99001122334', new Date()), new RG('741852963', new Date()), 'F', new Telefone('11', '855334422')));
+        this.clientes.push(new Cliente('Eduardo', 'Eduardo Oliveira', new CPF('01122334455', new Date()), new RG('852963741', new Date()), 'M', new Telefone('48', '844223311')));
+        this.clientes.push(new Cliente('Renata', 'Renata Santos', new CPF('12233445566', new Date()), new RG('951357456', new Date()), 'F', new Telefone('45', '833112200')));
+        this.clientes.push(new Cliente('Leonardo', 'Leonardo Barros', new CPF('23344556677', new Date()), new RG('753486159', new Date()), 'M', new Telefone('84', '822001199')));
+        this.clientes.push(new Cliente('Camila', 'Camila Freitas', new CPF('34455667788', new Date()), new RG('159753486', new Date()), 'F', new Telefone('81', '811990088')));
+        this.clientes.push(new Cliente('Pedro', 'Pedro Costa', new CPF('45566778899', new Date()), new RG('951486753', new Date()), 'M', new Telefone('71', '800889977')));
+        this.clientes.push(new Cliente('Thiago', 'Thiago Martins', new CPF('56677889900', new Date()), new RG('357951456', new Date()), 'M', new Telefone('64', '799778866')));
+        this.clientes.push(new Cliente('Vanessa', 'Vanessa Souza', new CPF('67788990011', new Date()), new RG('147852369', new Date()), 'F', new Telefone('53', '788667755')));
+        this.clientes.push(new Cliente('Felipe', 'Felipe Andrade', new CPF('78899001122', new Date()), new RG('258963147', new Date()), 'M', new Telefone('91', '777556644')));
+        this.clientes.push(new Cliente('Tatiana', 'Tatiana Ribeiro', new CPF('89900112233', new Date()), new RG('369741852', new Date()), 'F', new Telefone('31', '766445533')));
+        this.clientes.push(new Cliente('Marcelo', 'Marcelo Carvalho', new CPF('99011223344', new Date()), new RG('741852963', new Date()), 'M', new Telefone('62', '755334422')));
+        this.clientes.push(new Cliente('Isabela', 'Isabela Almeida', new CPF('01122334455', new Date()), new RG('852963741', new Date()), 'F', new Telefone('18', '744223311')));
+        this.clientes.push(new Cliente('Daniel', 'Daniel Azevedo', new CPF('12233445566', new Date()), new RG('951357456', new Date()), 'M', new Telefone('95', '733112200')));
+        this.clientes.push(new Cliente('Luana', 'Luana Silva', new CPF('23344556677', new Date()), new RG('753486159', new Date()), 'F', new Telefone('77', '722001199')));
+        this.clientes.push(new Cliente('Rafael', 'Rafael Lima', new CPF('34455667788', new Date()), new RG('159753486', new Date()), 'M', new Telefone('65', '711990088')));
+        this.clientes.push(new Cliente('Caroline', 'Caroline Torres', new CPF('45566778899', new Date()), new RG('951486753', new Date()), 'F', new Telefone('91', '700889977')));
+
+
 
         //Produtos
         this.produtos.push(new Produto('Esmalte Preto', 5))
