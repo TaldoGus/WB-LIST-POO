@@ -1,3 +1,31 @@
+/*navbar*/
+.navbar {
+    background-color: #000000 !important;
+}
+
+.sidenav {
+    background-color: #a280ff !important;
+}
+
+.brand-logo {
+    color: #fff !important; /* Cor do nome da marca */
+}
+
+.nav-wrapper {
+    background-color: #a280ff !important; /* Cor da barra */
+}
+
+.sidenav li a {
+    color: #fff !important; /* Cor dos itens no menu lateral */
+}
+
+.sidenav li a:hover {
+    background-color: #8b6dff !important; /* Cor ao passar o mouse */
+}
+
+/*fim navbar*/
+
+
 a {
     color: #7114eb;
 }
